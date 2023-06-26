@@ -19,7 +19,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0;
+  padding: 4px 0;
   margin: 0;
 }
 
@@ -64,7 +64,7 @@ button {
   border: none;
   padding: 10px 20px;
   width: 160px;
-  height: 50px;
+  height: 58px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -155,8 +155,13 @@ small  {
 
 #apply-btn {
   display: flex;
+  height: 60px;
   align-items: center;
   cursor: pointer;
+}
+
+#apnw {
+  transform: translateY(-2px);
 }
 
 #navicon {
