@@ -92,14 +92,95 @@ button > img {
 
 
 .hero {
-  min-height: 81vh;
+  min-height: 82vh;
   width: 100%;
   
   background-color: #1E1C31;
   background-image: url('./images/herobanner.jpeg');
   background-position: center;
-  background-size: cover;
-  filter: brightness(40%);
+  background-size: 101%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-container1 {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container1 > img {
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero-container2 {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  padding-bottom: 20vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+small  {
+  margin-bottom: -40px;
+}
+
+
+#banner-title {
+  font-size: 75px;
+  word-spacing: 8px;
+  letter-spacing: 2px;
+}
+
+#banner {
+  color: #0086fd;
+}
+
+.hero-container2>p {
+  width: 20vw;
+  padding-bottom: 40px;
+}
+
+#apply-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#navicon {
+  transform: translateY(-10px);
+  height: 14px;
+  transform: translateX(10px);  
+  
+}
+
+.hero-container3 {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container3 > img {
+  height: 40px;
+  cursor: pointer;
+}
+
+
+#navR {
+  transform: rotate(180deg);
 }
 
 .blocks {
@@ -109,18 +190,37 @@ button > img {
 
 #block1 {
   background-color: #0086fd;
+  color: white;
   height: 100%;
   width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  margin-bottom: -15px;
 }
 
 #block2 {
   background-color: #007879;
+  color: white;
   height: 100%;
   width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #block3 {
+  color: white;
   background-color: #1E1C31;
   height: 100%;
   width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
