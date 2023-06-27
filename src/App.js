@@ -1,4 +1,5 @@
 import './App.css';
+import BannerPhoto from './components/BannerPhoto';
 import Courses from './components/Courses';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <PitchSection />
       <Courses />
+      <BannerPhoto />
     </div>
   );
 }
