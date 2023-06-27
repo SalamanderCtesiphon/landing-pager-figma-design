@@ -11,7 +11,7 @@ function Hero() {
         </div>
         <div className="hero-container2">
           <small>Univy University</small>
-          <h1 id="banner-title">Discover Your <br></br>Future at <span id="banner">Univy</span></h1>
+          <h1 className="banner-title">Discover Your <br></br>Future at <span class="banner">Univy</span></h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam qui rerum.</p>
           <button id='apply-btn'><span id="apnw">Apply Now </span><img id='navicon' src={navR} alt="navicon" /></button>
         </div>

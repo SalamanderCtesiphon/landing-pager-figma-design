@@ -127,8 +127,7 @@ button > img {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  color: white;
-  padding-bottom: 20vh;
+  color: white; 
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -138,13 +137,13 @@ small  {
 }
 
 
-#banner-title {
+.banner-title {
   font-size: 75px;
   word-spacing: 8px;
   letter-spacing: 2px;
 }
 
-#banner {
+.banner {
   color: #0086fd;
 }
 
@@ -228,4 +227,125 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+/* pitch section++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.pitch {
+  min-height: 90vh;
+  width: 100vw;
+  display: flex;
+  padding: 200px 0;
+}
+
+.pitch-box1 {
+  width: 50%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pitch-title {
+  font-size: 70px;
+  width: 65%;
+  text-align: left;
+  font-weight: 400;
+}
+
+#pitch-pic {
+  height: auto;
+  width: 65%;
+}
+
+#pitch-para {
+  width: 65%;
+}
+
+.pitch-box2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.subbox1 {
+  background-color: #0086fd;
+  color: white;
+  height: 33%;
+  width: 70%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.subbox2 {
+  background-color: #007879;
+  color: white;
+  height: 45%;
+  width: 70%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.nav-button-holder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#pitch-btn1 {
+  background-color: white;
+  color: #0086fd;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+#pitch-btn2 {
+  border: 2px solid white;
+  transform: translateY(0px);
+  cursor: pointer;
+}
+
+.pitch-box2 > .subbox1 > h1 {
+  font-size: 40px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+#pitch-btn3 {
+  background-color: white;
+  color: #007879;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+#pitch-btn4 {
+  background-color: #007879;
+  border: 2px solid white;
+  transform: translateY(0px);
+  cursor: pointer;
+}
+
+.pitch-box2 > .subbox2 > h1 {
+  font-size: 40px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+#fourk {
+  font-size: 50px;
+  font-weight: 400;
 }
