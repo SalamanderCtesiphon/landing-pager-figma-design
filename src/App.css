@@ -188,7 +188,7 @@ small  {
 }
 
 .blocks {
-  height: 15vh;
+  height: 20vh;
   display: flex;
 }
 
@@ -348,4 +348,65 @@ h4 {
 #fourk {
   font-size: 50px;
   font-weight: 400;
+}
+
+/* courses section+++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.courses {
+  color: black;
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#courses-title {
+  display: flex;
+  width: 21%;
+  justify-content: space-around;
+}
+
+.card-holder {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.courses > .card-holder > .card > img {
+  height: 55%;
+  min-height: 220px;
+  width: 95%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.courses > .card-holder > .card > h2 {
+  width: 80%;
+  text-align: left;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.courses > .card-holder > .card > p {
+  width: 80%;
+  text-align: left;
+}
+
+#blue-button {
+  background-color: white;
+  color: #0086fd;
+  border: 2px solid #0086fd;
+  margin-top: 10vh;
+  cursor: pointer;
 }
