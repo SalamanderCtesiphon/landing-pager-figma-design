@@ -415,6 +415,7 @@ h4 {
 /* banner photo+++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .banner-photo {
+  margin-top: 100px;
   height: 80vh;
   width: 100%;
 }
@@ -425,4 +426,20 @@ h4 {
 
   object-fit: cover;
   object-position: center;
+}
+
+
+/* top students +++++++++++++++++++++++++++++++++++++++++++ */
+
+.top-students {
+  height: 90vh;
+  width: 100%;
+  background-color: #0086fd;
+  color: white;
+}
+
+.top-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }

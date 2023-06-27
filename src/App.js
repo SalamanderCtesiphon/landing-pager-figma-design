@@ -4,6 +4,7 @@ import Courses from './components/Courses';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 import PitchSection from './components/PitchSection';
+import TopStudents from './components/TopStudents';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <PitchSection />
       <Courses />
       <BannerPhoto />
+      <TopStudents />
     </div>
   );
 }
