@@ -5,6 +5,7 @@ import facebook from '../icons/Vector(3).svg'
 import instagram from '../icons/Vector(4).svg'
 import youtube from '../icons/Vector(5).svg'
 import phone from '../icons/phone.svg'
+import mail from '../icons/Clip path group.svg'
 
 function Footer() {
   return (
@@ -13,14 +14,14 @@ function Footer() {
         <div className="footer-container1-header">
           <img src={logo} alt="logo" />
           <h2>Univy</h2>
+        </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eius voluptate est sit provident enim similique, at sunt consequuntur laborum fugiat molestias quis exercitationem accusamus?
           </p>
-          <div className="icon-holder-footer">
-            <img src={twitter} alt="twitter" />
-            <img src={facebook} alt="twitter" />
-            <img src={instagram} alt="twitter" />
-            <img src={youtube} alt="twitter" />
-          </div>
+        <div className="icon-holder-footer">
+          <img src={twitter} alt="twitter" />
+          <img src={facebook} alt="twitter" />
+          <img src={instagram} alt="twitter" />
+          <img src={youtube} alt="twitter" />
         </div>
       </div>
       <div className="footer-container2">
@@ -41,6 +42,11 @@ function Footer() {
           <h3>Contact Information</h3>
           <div className='line1'>
             <img src={phone} alt="" />
+            <p>+25 555 0201547</p>
+          </div>
+          <div className="line1">
+            <img src={mail} alt="mail" />
+            <p>support@mail.com</p>
           </div>
         </div>
       </div>
