@@ -588,3 +588,11 @@ h4 {
   font-size: 25px;
   margin-top: -40px;
 }
+
+/* footer++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.footer {
+  width: 100%;
+  background-color: #1E1C31;
+  color: white;
+}

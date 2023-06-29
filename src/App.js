@@ -2,6 +2,7 @@ import './App.css';
 import BannerPhoto from './components/BannerPhoto';
 import CallToAction from './components/CallToAction';
 import Courses from './components/Courses';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 import PitchSection from './components/PitchSection';
@@ -19,6 +20,7 @@ function App() {
       <TopStudents />
       <CallToAction />
       <TrendingNews />
+      <Footer />
     </div>
   );
 }
