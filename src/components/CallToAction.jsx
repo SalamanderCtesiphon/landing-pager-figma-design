@@ -4,7 +4,7 @@ function CallToAction() {
   return (
     <div className="call">
       <h1 className="call-to-action-header">
-        Join Our Community of Scholars? Apply Now to <span id='call-span'>Univy</span> University!
+        Join Our Community of Scholars? Apply Now to <span className='call-span'>Univy</span> University!
       </h1>
       <button className="call-btn">Join Now</button>
     </div>

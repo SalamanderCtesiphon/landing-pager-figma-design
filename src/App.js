@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 import PitchSection from './components/PitchSection';
 import TopStudents from './components/TopStudents';
+import TrendingNews from './components/TrendingNews';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <BannerPhoto />
       <TopStudents />
       <CallToAction />
+      <TrendingNews />
     </div>
   );
 }
