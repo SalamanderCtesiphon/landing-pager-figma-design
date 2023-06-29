@@ -12,7 +12,7 @@ function TrendingNews() {
           <img src={newsPhoto} alt="news" />
           <div className="card-text">
             <div className="news-card-row">
-              <img src={eyes} alt="views" />
+              <img className='eyes' src={eyes} alt="views" />
               <small>18,988 Views</small>
               <img src={calender} alt="calender" />
               <small>14 Jan 2023</small>
@@ -25,7 +25,7 @@ function TrendingNews() {
           <img src={newsPhoto} alt="news" />
           <div className="card-text">
             <div className="news-card-row">
-              <img src={eyes} alt="views" />
+              <img className='eyes' src={eyes} alt="views" />
               <small>18,988 Views</small>
               <img src={calender} alt="calender" />
               <small>14 Jan 2023</small>
@@ -40,7 +40,20 @@ function TrendingNews() {
           <img src={newsPhoto} alt="news" />
           <div className="card-text">
             <div className="news-card-row">
-              <img src={eyes} alt="views" />
+              <img className='eyes' src={eyes} alt="views" />
+              <small>18,988 Views</small>
+              <img src={calender} alt="calender" />
+              <small>14 Jan 2023</small>
+            </div>
+            <h4>Experience the Best of College Life</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias esse ipsam, ullam deleniti est a.</p>
+          </div>
+        </div>
+        <div className="news-card">
+          <img src={newsPhoto} alt="news" />
+          <div className="card-text">
+            <div className="news-card-row">
+              <img className='eyes' src={eyes} alt="views" />
               <small>18,988 Views</small>
               <img src={calender} alt="calender" />
               <small>14 Jan 2023</small>
