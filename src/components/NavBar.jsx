@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../icons/Vector.svg'
+import logo from '../icons/logo.svg'
 import dropDown from '../icons/dropdown.svg'
 import searchIcon from '../icons/search.svg'
 
